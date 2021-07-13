@@ -4,18 +4,76 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="css/styles.css">
     <title>Always Elevate Media</title>
 </head>
 
 <body>
-    <h1>Always Elevate Media</h1>
-    <nav><a href="">Home</nav>
-    <nav><a href="about.html">About</nav>
-    <nav><a href="video-clip.html">Video clips</nav>
-    <nav><a href="Social.html">Social</nav>
+    <div class="row">
+        <div class="column small-12 medium-6 large-3">
+            <h1 class="title">Always Elevate Media</h1>
+        </div>
+        <!--end column-->
+        <div class="column small-12 medium-6 large-3">
+            <nav><a href="index.html"><img src="images/aemhomeimage.png" alt="image of boardroom"></a>
 
+            </nav>
+        </div>
+        <!--end column-->
+        <div class="column small-12 medium-6 large-3">
+            <nav>
+                <id="about" class="about"><img src="images/aboutusimg.png" alt="image of AEM Team"></a>
+            </nav>
+            <input id="btn" type="button" value="Click Here"></input>
+            <div id="aboutButton" class="container d-none">
+
+                <h2>Always Elevate Media</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare mattis est, ut posuere diam
+                    tincidunt et. Etiam suscipit dolor nec pretium eleifend.
+                    Quisque semper vestibulum orci, eu ultricies odio scelerisque cursus. Sed et euismod urna.
+                    Donec aliquet vel massa sit amet mollis. Maecenas eget ipsum nec tellus sollicitudin imperdiet.
+                    Sed neque turpis, consequat quis lectus et, blandit malesuada ex. Etiam ac ipsum purus. Phasellus
+                    vitae rhoncus erat.</p>
+
+            </div>
+        </div>
+
+    </div>
+    <!--end column-->
+    <div class="column small-12 medium-6 large-3">
+        <nav><a href="video-clip.html"><img src="images/Videoclipimg.png" alt="image of podcast"></a>
+
+        </nav>
+    </div>
+    <!--end column-->
+    <div class="column small-12 medium-6 large-3">
+        <nav><a href="Social.html"><img src="images/SocialNWimg.jpg" alt="image of Social Media apps"></a>
+
+        </nav>
+    </div>
+    <!--end column-->
+    </div>
+    <!--end row-->
+
+    <script src="javascript/javahome.js"></script>
 </body>
+
+<footer>
+    <div class="column small-12 medium-6 large-3">
+        <h2 id="contact">Contact Us</h2>
+
+        <p>
+        <form><label for="name" id="name">Name</label><input type="name" name="name" id="name"></p>
+            <p><label for="phone" id="phone">Phone</label><input type="tel" name="Phone" id="phone"></p>
+            <p><label for="email" id="email">Email</label><input type="email" name="email" id="email"></p>
+            <p>
+            <fieldset>Comments</fieldset>
+            </p>
+            <p><input type="button" value="Submit" id="submit"></p>
+        </form>
+    </div>
+
+</footer>
 
 </html>
