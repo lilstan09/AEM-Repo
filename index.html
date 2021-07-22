@@ -12,21 +12,25 @@
 <body>
     <div class="row">
         <div class="column small-12 medium-6 large-3">
-            <h1 class="title">Always Elevate Media</h1>
+            <header>
+                <h1 class="title">Always Elevate Media</h1>
+
+                <p>Your one stop shop for Podcast, Videos, and Gaming from the Always Elevate family!!!</p>
         </div>
         <!--end column-->
         <div class="column small-12 medium-6 large-3">
             <nav><a href="index.html"><img src="images/aemhomeimage.png" alt="image of boardroom"></a>
 
             </nav>
+            </header>
         </div>
         <!--end column-->
         <div class="column small-12 medium-6 large-3">
             <nav>
                 <id="about" class="about"><img src="images/aboutusimg.png" alt="image of AEM Team"></a>
             </nav>
-            <input id="btn" type="button" value="Click Here"></input>
-            <div id="aboutButton" class="container d-none">
+            <div class="row"><input id="btn" type="button" value="Click Here"></input></div>
+            <div id="aboutButton" class="container d-none row">
 
                 <h2>Always Elevate Media</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare mattis est, ut posuere diam
@@ -63,17 +67,22 @@
     <div class="column small-12 medium-6 large-3">
         <h2 id="contact">Contact Us</h2>
 
-        <p>
-        <form><label for="name" id="name">Name</label><input type="name" name="name" id="name"></p>
-            <p><label for="phone" id="phone">Phone</label><input type="tel" name="Phone" id="phone"></p>
-            <p><label for="email" id="email">Email</label><input type="email" name="email" id="email"></p>
-            <p>
-            <fieldset>Comments</fieldset>
-            </p>
-            <p><input type="button" value="Submit" id="submit"></p>
+
+        <form name="form1">
+            <ul>
+                <li><label for="name" id="name">Name:</label><input type="name" name="name" id="fullName"></li>
+                <li><label for="phone" id="phone">Phone:</label><input type="number" name="phone" id="tel"></li>
+                <li><label for="email" id="email">Email:</label><input type="email" name="email" id="mail"></li>
+                <li>
+                    <p><label for="comments" id="comm">Comments:</label></p><textarea id="comments"></textarea>
+                </li>
+                <li><input type="button" value="Submit" onclick="send()" onclick="phonenumber(document.form1.phone)"
+                        id="submit"></li>
+            </ul>
         </form>
     </div>
 
+    <div>&copy; Created by Stan Jackson Copyright 2021</div>
 </footer>
 
 </html>
