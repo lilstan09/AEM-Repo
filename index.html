@@ -76,8 +76,10 @@
                 <li>
                     <p><label for="comments" id="comm">Comments:</label></p><textarea id="comments"></textarea>
                 </li>
-                <li><input type="button" value="Submit" onclick="send()" onclick="phonenumber(document.form1.phone)"
-                        id="submit"></li>
+                <li><input type="button" value="Submit"
+                        onclick="phonenumber(document.form1.phone), ValidateEmail(document.form1.email), send()"
+                        id="submit">
+                </li>
             </ul>
         </form>
     </div>
