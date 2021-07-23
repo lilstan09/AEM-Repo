@@ -11,64 +11,65 @@
 
 <body>
     <div class="row">
-        <div class="column small-12 medium-6 large-3">
+        <div class="column small-12 medium-6 large-3 one">
             <header>
                 <h1 class="title">Always Elevate Media</h1>
 
                 <p>Your one stop shop for Podcast, Videos, and Gaming from the Always Elevate family!!!</p>
         </div>
         <!--end column-->
-        <div class="column small-12 medium-6 large-3">
+        <div class="column small-12 medium-6 large-3 two">
             <nav><a href="index.html"><img src="images/aemhomeimage.png" alt="image of boardroom"></a>
 
             </nav>
             </header>
         </div>
         <!--end column-->
-        <div class="column small-12 medium-6 large-3">
+        <div class="column small-12 medium-6 large-3 three">
             <nav>
                 <id="about" class="about"><img src="images/aboutusimg.png" alt="image of AEM Team"></a>
             </nav>
-            <div class="row"><input id="btn" type="button" value="Click Here"></input></div>
-            <div id="aboutButton" class="container d-none row">
-
-                <h2>Always Elevate Media</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare mattis est, ut posuere diam
-                    tincidunt et. Etiam suscipit dolor nec pretium eleifend.
-                    Quisque semper vestibulum orci, eu ultricies odio scelerisque cursus. Sed et euismod urna.
-                    Donec aliquet vel massa sit amet mollis. Maecenas eget ipsum nec tellus sollicitudin imperdiet.
-                    Sed neque turpis, consequat quis lectus et, blandit malesuada ex. Etiam ac ipsum purus. Phasellus
-                    vitae rhoncus erat.</p>
-
-            </div>
         </div>
+        <div class="column small-12 medium-6 large-3 four" id="btncon"><input id="btn" type="button"
+                value="Click Here"></input>
+        </div>
+        <div id="aboutButton" class="container d-none row five">
+
+            <h2 id="aboutHead">Always Elevate Media</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare mattis est, ut posuere diam
+                tincidunt et. Etiam suscipit dolor nec pretium eleifend.
+                Quisque semper vestibulum orci, eu ultricies odio scelerisque cursus. Sed et euismod urna.
+                Donec aliquet vel massa sit amet mollis. </p>
+
+        </div>
+    </div>
 
     </div>
     <!--end column-->
-    <div class="column small-12 medium-6 large-3">
-        <nav><a href="video-clip.html"><img src="images/Videoclipimg.png" alt="image of podcast"></a>
+    <div class="row">
+        <div class="column small-12 medium-6 large-3 six" id="vc">
+            <nav><a href="video-clip.html"><img src="images/Videoclipimg.png" alt="image of podcast"></a>
 
-        </nav>
-    </div>
-    <!--end column-->
-    <div class="column small-12 medium-6 large-3">
-        <nav><a href="Social.html"><img src="images/SocialNWimg.jpg" alt="image of Social Media apps"></a>
+            </nav>
+        </div>
+        <!--end column-->
+        <div class="column small-12 medium-6 large-3 seven" id="soc">
+            <nav><a href="Social.html"><img src="images/SocialNWimg.jpg" alt="image of Social Media apps"></a>
 
-        </nav>
-    </div>
-    <!--end column-->
+            </nav>
+        </div>
+        <!--end column-->
     </div>
     <!--end row-->
 
-    <script src="javascript/javahome.js"></script>
-</body>
-
-<footer>
-    <div class="column small-12 medium-6 large-3">
-        <h2 id="contact">Contact Us</h2>
 
 
-        <form name="form1">
+
+
+    <div class="column small-12 medium-6 large-3 eight" id="contact">
+        <h2 id="contacthead">Contact Us</h2>
+
+        <form name="form1" id="conform">
             <ul>
                 <li><label for="name" id="name">Name:</label><input type="name" name="name" id="fullName"></li>
                 <li><label for="phone" id="phone">Phone:</label><input type="number" name="phone" id="tel"></li>
@@ -84,6 +85,9 @@
         </form>
     </div>
 
+    <script src="javascript/javahome.js"></script>
+</body>
+<footer>
     <div>&copy; Created by Stan Jackson Copyright 2021</div>
 </footer>
 
